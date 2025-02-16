@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(135deg, #000000, #010123, #101023);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background: #b4b9ca;
+    transform: scale(1.05);
+}
+
+.content {
+    max-width: 600px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.logos img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.section-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-developer {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+
+.section-developer img {
+    width: 120px;
+    height: 150px;
+    border-radius: 0%;
+    margin-bottom: 10px;
+}
+
+.informasi {
+    line-height: 0.5;
+}
+
+.section-dosen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dosen {
+    flex: 1;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.dosen-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dosen-list li {
+    font-size: 16px;
+    line-height: 0.5;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
